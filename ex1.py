@@ -10,5 +10,7 @@ class Udacian:
     def printUdacian(self):
         return("name:" + self.name + "\ncity: " + self.city + "\nenrollment: " + self.enrollment + "\nnanodegree: " + self.nanodegree + "\nstatus: " + self.status)
 
-udacian = Udacian("Sara", "Khobar", "yes", "Full Stack Developer", "active")
+udacian = Udacian("Yara", "Khobar", "yes", "Full Stack Developer", "active")
 print(udacian.printUdacian())
+
+print("Hello Teammates!")
